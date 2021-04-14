@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name       qiita
+@version    0.0.1
+@namespace  https://github.com/mapi/qol
+@updateURL  https://raw.githubusercontent.com/mapi/qol/main/stylus/qiita.user.css
+==/UserStyle== */
+
+@-moz-document regexp("https://qiita.com/.*/items/.*") {
+    div.apm-Content,
+    div.it-ReferenceList,
+    div.co-AnonymousForm {
+        display: none
+    }
+    }
