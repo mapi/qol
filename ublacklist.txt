@@ -1,3 +1,4 @@
+*://*.ashradar.com/*
 *://*.codeday.me/*
 *://*.djangoproject.jp/*
 *://*.docsplayer.net/*
@@ -5,6 +6,7 @@
 *://*.gizmodo.jp/*
 *://*.i-3-i.info/*
 *://*.jin115.com/*
+*://*.jisaku.com/*
 *://*.k-c-0.com/*
 *://*.lifehacker.jp/*
 *://*.my-best.com/*
