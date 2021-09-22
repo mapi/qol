@@ -1,6 +1,8 @@
 *://*.ashradar.com/*
 *://*.codeday.me/*
+*://*.desdelinux.net/*
 *://*.djangoproject.jp/*
+*://*.docker.jp/*
 *://*.docsplayer.net/*
 *://*.gigazine.net/*
 *://*.gizmodo.jp/*
@@ -17,5 +19,12 @@
 *://*.sakidori.co/*
 *://*.sejuku.net/*
 *://*.smartlog.jp/*
+*://*.techacademy.jp/*
 *://*.tutorialmore.com/*
 *://*.vokka.jp/*
+*://www.fenet.jp/*
+*://tech-ja.netlify.app/*
+*://nxmnpg.lemoda.net/*
+*://cndgn.com/*
+*://matsuand.github.io/*
+*://ubunlog.com/*
