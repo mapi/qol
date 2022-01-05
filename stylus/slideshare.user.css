@@ -16,6 +16,10 @@
         width: 100%
     }
 
+    #svPlayerId {
+        max-height: 100% !important
+    }
+
     img.slide_image {
         max-width: 100% !important;
         max-height: 100% !important
