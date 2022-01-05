@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           slideshare
+@namespace      github.com/mapi/qol
+@version        0.0.1
+@updateURL      https://raw.githubusercontent.com/mapi/qol/main/stylus/slideshare.user.css
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.slideshare.net") {
+    .row {
+        max-width: 90%;
+        width: 90%
+    }
+
+    #main-panel {
+        max-width: 100%;
+        width: 100%
+    }
+
+    img.slide_image {
+        max-width: 100% !important;
+        max-height: 100% !important
+    }
+
+    aside#side-panel,
+    .recommender-wrapper,
+    .tabs-content {
+        display: none
+    }
+}
