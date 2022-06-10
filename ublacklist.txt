@@ -22,9 +22,11 @@
 *://*.techacademy.jp/*
 *://*.tutorialmore.com/*
 *://*.vokka.jp/*
-*://www.fenet.jp/*
-*://tech-ja.netlify.app/*
-*://nxmnpg.lemoda.net/*
 *://cndgn.com/*
+*://hakk.gg/*
 *://matsuand.github.io/*
+*://nxmnpg.lemoda.net/*
+*://tech-ja.netlify.app/*
 *://ubunlog.com/*
+*://websetnet.net/*
+*://www.fenet.jp/*
