@@ -1,33 +1,35 @@
 /* ==UserStyle==
 @name       hatebu
-@version    0.0.1
+@version    0.0.2
 @namespace  https://github.com/mapi/qol
 @updateURL  https://raw.githubusercontent.com/mapi/qol/main/stylus/hatebu.user.css
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://b.hatena.ne.jp/") {
+
     /* 右側のカラムを消す */
     div.right-container {
         display: none
     }
-    
+
     /* 消したカラムの分広げる */
     div.center-container {
         max-width: 80%;
     }
-    
+
     /* 関連エントリの類を消す */
     section.entry-hotentry,
     section.entry-relationContents,
     section.entry-pager,
+    section.entry-group,
     div.right-container {
         display: none
     }
-    
+
     /* 不要なメニューを消す */
     a[data-gtm-click-label="user-my-menu-unread"],
     a[data-gtm-click-label="user-my-menu-myhotentry"],
     a[data-gtm-click-label="user-my-menu-interest"] {
         display: none
     }
-    }
+}
