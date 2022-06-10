@@ -1,0 +1,164 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "windowPosition": {},
+      "show-badge": true,
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeStyleName": false,
+      "newStyleAsUsercss": true,
+      "styleViaXhr": false,
+      "patchCsp": false,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.breadcrumbs": true,
+      "popup.breadcrumbs.usePath": false,
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "u",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.newUI": true,
+      "manage.newUI.favicons": false,
+      "manage.newUI.faviconsGray": true,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "sublime",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": true,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": 0,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popupWidth": 246,
+      "updateInterval": 24
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://raw.githubusercontent.com/mapi/qol/main/stylus/hatebu.user.css",
+    "installDate": 1618525698920,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name       hatebu\n@version    0.0.1\n@namespace  https://github.com/mapi/qol\n@updateURL  https://raw.githubusercontent.com/mapi/qol/main/stylus/hatebu.user.css\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://b.hatena.ne.jp/\") {\n    /* 右側のカラムを消す */\n    div.right-container {\n        display: none\n    }\n    \n    /* 消したカラムの分広げる */\n    div.center-container {\n        max-width: 80%;\n    }\n    \n    /* 関連エントリの類を消す */\n    section.entry-hotentry,\n    section.entry-relationContents,\n    section.entry-pager,\n    div.right-container {\n        display: none\n    }\n    \n    /* 不要なメニューを消す */\n    a[data-gtm-click-label=\"user-my-menu-unread\"],\n    a[data-gtm-click-label=\"user-my-menu-myhotentry\"],\n    a[data-gtm-click-label=\"user-my-menu-interest\"] {\n        display: none\n    }\n    }",
+    "usercssData": {
+      "name": "hatebu",
+      "version": "0.0.1",
+      "namespace": "https://github.com/mapi/qol",
+      "updateURL": "https://raw.githubusercontent.com/mapi/qol/main/stylus/hatebu.user.css"
+    },
+    "name": "hatebu",
+    "originalDigest": "8f5f8a265c4cceb7a702fad16d9da388d17cde04",
+    "_id": "82d99b48-60d9-4fec-85ec-c6dbd4f230da",
+    "_rev": 1618525698921,
+    "id": 1,
+    "etag": "W/\"178dbeacdbac45973cdf0f434ff9d4e59f21f6339edc51b4c38df28649649992\""
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://raw.githubusercontent.com/mapi/qol/main/stylus/qiita.user.css",
+    "installDate": 1618525703838,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name       qiita\n@version    0.0.1\n@namespace  https://github.com/mapi/qol\n@updateURL  https://raw.githubusercontent.com/mapi/qol/main/stylus/qiita.user.css\n==/UserStyle== */\n\n@-moz-document regexp(\"https://qiita.com/.*/items/.*\") {\n    div.apm-Content,\n    div.it-ReferenceList,\n    div.co-AnonymousForm {\n        display: none\n    }\n    }",
+    "usercssData": {
+      "name": "qiita",
+      "version": "0.0.1",
+      "namespace": "https://github.com/mapi/qol",
+      "updateURL": "https://raw.githubusercontent.com/mapi/qol/main/stylus/qiita.user.css"
+    },
+    "name": "qiita",
+    "originalDigest": "19e38e019ff5412144e6aad7ee4d1fd135abcb83",
+    "_id": "45750e8e-13c8-496e-a254-61981820e564",
+    "_rev": 1618525703839,
+    "id": 2,
+    "etag": "W/\"40a57f82e8da7973912451e92e109cd7dcaf68efe32abe7838ba29afdc62d439\""
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://raw.githubusercontent.com/mapi/qol/main/stylus/slideshare.user.css",
+    "installDate": 1654900067550,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           slideshare\n@namespace      github.com/mapi/qol\n@version        0.0.1\n@updateURL      https://raw.githubusercontent.com/mapi/qol/main/stylus/slideshare.user.css\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://www.slideshare.net\") {\n    .row {\n        max-width: 90%;\n        width: 90%\n    }\n\n    #main-panel {\n        max-width: 100%;\n        width: 100%\n    }\n\n    #svPlayerId {\n        max-height: 100% !important\n    }\n\n    img.slide_image {\n        max-width: 100% !important;\n        max-height: 100% !important\n    }\n\n    aside#side-panel,\n    .recommender-wrapper,\n    .tabs-content {\n        display: none\n    }\n}\n",
+    "usercssData": {
+      "name": "slideshare",
+      "namespace": "github.com/mapi/qol",
+      "version": "0.0.1",
+      "updateURL": "https://raw.githubusercontent.com/mapi/qol/main/stylus/slideshare.user.css"
+    },
+    "name": "slideshare",
+    "originalDigest": "2e4e02f4ac8ec5d257cbdd05b5e650e8fefab645",
+    "_id": "ecc5e049-8163-459a-9c45-1e84a98c7afb",
+    "_rev": 1654900067550,
+    "id": 3
+  }
+]
