@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           misskey
+@namespace      github.com/mapi/qol
+@version        0.0.1
+@updateURL      https://raw.githubusercontent.com/mapi/qol/main/stylus/misskey.user.css
+==/UserStyle== */
+
+@-moz-document domain("misskey.io") {
+    /* HTLで「見たことのあるRenoteを省略して表示」で省略されてるRNを非表示*/
+    header:has(.ti-home) ~ div .xcSej.x3762:has(.xBwhh):has(.x22gY) {
+        display: none;
+    }
+
+    /* STLでRN非表示 */
+    header:has(.ti-rocket) ~ div .xcSej.x3762:has(.xBwhh) {
+        display: none;
+    }
+
+    /* STLでソフトミュートの「何かを言いました」を非表示 */
+    header:has(.ti-rocket) ~ div .xkYCV.x3762 {
+        display: none;
+    }
+}
