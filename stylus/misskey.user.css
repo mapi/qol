@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           misskey
 @namespace      github.com/mapi/qol
-@version        0.0.1
+@version        0.0.2
 @updateURL      https://raw.githubusercontent.com/mapi/qol/main/stylus/misskey.user.css
 ==/UserStyle== */
 
@@ -18,6 +18,11 @@
 
     /* STLでソフトミュートの「何かを言いました」を非表示 */
     header:has(.ti-rocket) ~ div .xkYCV.x3762 {
+        display: none;
+    }
+
+    /* hide bot post */
+    div .xcSej.x3762:has(.xEKlD) {
         display: none;
     }
 }
