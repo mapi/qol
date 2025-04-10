@@ -1,0 +1,52 @@
+{
+  "default": [
+    {
+      "expression": "*.misskey.io",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "GIo3M-Y9TE",
+      "cleanAllCookies": true
+    },
+    {
+      "expression": "*.pornanime.club",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "ydvKwToWGY",
+      "cleanAllCookies": true
+    },
+    {
+      "expression": "/^(.*\\.)*(twitter|x)\\.com$/",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [],
+      "cookieNames": [
+        "_twitter_sess",
+        "att",
+        "auth_token",
+        "ct0",
+        "kdt",
+        "twid"
+      ],
+      "id": "IM9bsw968",
+      "cleanAllCookies": true
+    },
+    {
+      "expression": "di.fm",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [],
+      "cookieNames": [
+        "_di.fm_session",
+        "__stripe_mid",
+        "__stripe_sid",
+        "audio_addict_session"
+      ],
+      "id": "uvYi9SM-h",
+      "cleanAllCookies": true
+    }
+  ]
+}
