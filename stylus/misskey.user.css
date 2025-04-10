@@ -12,7 +12,7 @@
     }
 
     /* STLでソフトミュートの「何かを言いました」を非表示 */
-    header:has(.ti-rocket) ~ div .xkYCV.x3762 {
+    header:has(.ti-universe) ~ div .xkYCV.x3762 {
         display: none;
     }
 
