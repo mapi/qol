@@ -11,11 +11,6 @@
         display: none;
     }
 
-    /* STLでRN非表示 */
-    header:has(.ti-rocket) ~ div .xcSej.x3762:has(.xBwhh) {
-        display: none;
-    }
-
     /* STLでソフトミュートの「何かを言いました」を非表示 */
     header:has(.ti-rocket) ~ div .xkYCV.x3762 {
         display: none;
