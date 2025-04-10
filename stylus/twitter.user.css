@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name           twitter
+@namespace      github.com/mapi/qol
+@version        0.0.1
+@updateURL      https://raw.githubusercontent.com/mapi/qol/main/stylus/twitter.user.css
+==/UserStyle== */
+
+@-moz-document domain("twitter.com"), domain("x.com") {
+    * {
+        font-family: "Noto Sans JP", system-ui, -apple-system, BlinkMacSystemFont, sans-serif !important;
+    }
+}
